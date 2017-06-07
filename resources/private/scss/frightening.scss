@@ -1,0 +1,44 @@
+#app {
+  background-color: black;
+}
+
+.container {
+  padding: 20px;
+  display: block;
+  background-color: black;
+}
+
+.headbang-images {
+  width: 20%;
+  height: 495px;
+  display: inline-block;
+  background: transparent url(../images/clip.jpg) 0 0 no-repeat;
+  background-position: -50px 0px;
+  // margin: 3em auto;
+  // padding: 0 20px;
+}
+
+.frame_01 {
+  -webkit-animation: headbang 2s steps(12) infinite;
+}
+
+.frame_02 {
+  -webkit-animation: headbang 2s 2s steps(12) infinite;
+}
+
+.frame_03 {
+  -webkit-animation: headbang 2s 4s steps(12) infinite;
+}
+
+.frame_04 {
+  -webkit-animation: headbang 2s 6s steps(12) infinite;
+}
+
+.frame_05 {
+  -webkit-animation: headbang 2s 8s steps(12) infinite; 
+}
+
+@-webkit-keyframes headbang {
+   0% {background-position: -50px 0; }
+   100% {background-position: -50px -6000px; } /* Must be full height of sprite or skipping will happen.*/
+}

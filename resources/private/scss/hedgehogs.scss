@@ -1,0 +1,218 @@
+#app {
+  background-color: white;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption {
+  display: block;
+}
+
+body{
+  margin: 0;
+}
+.page-header {
+  text-align: center;
+  background-color: #F2F2F2;
+}
+header h1 {
+  padding-top: 5px;
+}
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+section{
+  background-color: #E8E8E8;
+}
+
+footer{
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: #F2F2F2;
+}
+p {
+  padding: 10px;
+}
+
+img.center-align {
+  display: block;
+  margin: 0px auto;
+  padding-top: 10px;
+}
+.gallery {
+  display: block;
+  margin: 10px auto;
+  width: 900px;
+  height: 283px;
+  overflow: hidden;
+}
+
+.gallery ul {
+  list-style-position: inside;
+  list-style-type: none;
+  margin: 0 0 0 300px;
+  padding: 0;
+  position: relative;
+}
+
+.gallery li {
+  width: 300px;
+  height: 283px;
+  position: absolute;
+  display: block;
+}
+
+.gallery img {
+  opacity: 0;
+  border-right: 1px white solid;
+  border-left: 1px white solid;
+}
+
+#first {
+  opacity: 1;
+  -webkit-animation: hedgehogs1 30s linear infinite;
+  -moz-animation: hedgehogs1 30s linear infinite;
+  -o-animation: hedgehogs1 30s linear infinite;
+  animation: hedgehogs1 30s linear infinite;
+}
+#second {
+  -webkit-animation: hedgehogs2 30s linear infinite;
+  -moz-animation: hedgehogs2 30s linear infinite;
+  -o-animation: hedgehogs2 30s linear infinite;
+  animation: hedgehogs2 30s linear infinite;
+}
+#third {
+  -webkit-animation: hedgehogs3 30s linear infinite;
+  -moz-animation: hedgehogs3 30s linear infinite;
+  -o-animation: hedgehogs3 30s linear infinite;
+  animation: hedgehogs3 30s linear infinite;
+}
+#fourth {
+  -webkit-animation: hedgehogs4 30s linear infinite;
+  -moz-animation: hedgehogs4 30s linear infinite;
+  -o-animation: hedgehogs4 30s linear infinite;
+  animation: hedgehogs4 30s linear infinite;
+}
+#fifth {
+  -webkit-animation: hedgehogs5 30s linear infinite;
+  -moz-animation: hedgehogs5 30s linear infinite;
+  -o-animation: hedgehogs5 30s linear infinite;
+  animation: hedgehogs5 30s linear infinite;  
+}
+
+/*first image*/
+@-webkit-keyframes hedgehogs1 {
+  0% { opacity: 1; -webkit-transform: translateX(0px); }
+  20% { opacity: 0; -webkit-transform: translateX(-300px); }
+  80% { opacity: 0; -webkit-transform: translateX(300px); }
+  100% { opacity: 1; -webkit-transform: translateX(0px); }
+}
+@-moz-keyframes hedgehogs {
+  0% { opacity: 1; -moz-transform: translateX(0px); }
+  20% { opacity: 0; -moz-transform: translateX(-300px); }
+  80% { opacity: 0; -moz-transform: translateX(300px); }
+  100% { opacity: 1; -moz-transform: translateX(0px); }
+}
+@-o-keyframes hedgehogs {
+  0% { opacity: 1; -o-transform: translateX(0px); }
+  20% { opacity: 0; -o-transform: translateX(-300px); }
+  80% { opacity: 0; -o-transform: translateX(300px); }
+  100% { opacity: 1; -o-transform: translateX(0px); }
+}
+@keyframes hedgehogs {
+  0% { opacity: 1; transform: translateX(0px); }
+  20% { opacity: 0; transform: translateX(-300px); }
+  80% { opacity: 0; transform: translateX(300px); }
+  100% { opacity: 1; transform: translateX(0px); }
+}
+
+/*second image*/
+@-webkit-keyframes hedgehogs2 {
+  0% { opacity: 0; -webkit-transform: translateX(300px); }
+  20% { opacity: 1; -webkit-transform: translateX(0px); }
+  40% { opacity: 0; -webkit-transform: translateX(-300px); }
+}
+@-moz-keyframes hedgehogs2 {
+  0% { opacity: 0; -moz-transform: translateX(300px); }
+  20% { opacity: 1; -moz-transform: translateX(0px); }
+  40% { opacity: 0; -moz-transform: translateX(-300px); }
+}
+@-o-keyframes hedgehogs2 {
+  0% { opacity: 0; -o-transform: translateX(300px); }
+  20% { opacity: 1; -o-transform: translateX(0px); }
+  40% { opacity: 0; -o-transform: translateX(-300px); }
+}
+@keyframes hedgehogs2 {
+  0% { opacity: 0; transform: translateX(300px); }
+  20% { opacity: 1; transform: translateX(0px); }
+  40% { opacity: 0; transform: translateX(-300px); }
+}
+
+/*third image*/
+@-webkit-keyframes hedgehogs3 {
+  20% { opacity: 0; -webkit-transform: translateX(300px); }
+  40% { opacity: 1; -webkit-transform: translateX(0px); }
+  60% { opacity: 0; -webkit-transform: translateX(-300px); }
+}
+@-moz-keyframes hedgehogs3 {
+  20% { opacity: 0; -moz-transform: translateX(300px); }
+  40% { opacity: 1; -moz-transform: translateX(0px); }
+  60% { opacity: 0; -moz-transform: translateX(-300px); }
+}
+@-o-keyframes hedgehogs3 {
+  20% { opacity: 0; -o-transform: translateX(300px); }
+  40% { opacity: 1; -o-transform: translateX(0px); }
+  60% { opacity: 0; -o-transform: translateX(-300px); }
+}
+@keyframes hedgehogs3 {
+  20% { opacity: 0; transform: translateX(300px); }
+  40% { opacity: 1; transform: translateX(0px); }
+  60% { opacity: 0; transform: translateX(-300px); }
+}
+
+/*fourth image*/
+@-webkit-keyframes hedgehogs4 {
+  40% { opacity: 0; -webkit-transform: translateX(300px); }
+  60% { opacity: 1; -webkit-transform: translateX(0px); }
+  80% { opacity: 0; -webkit-transform: translateX(-300px); }
+}
+@-moz-keyframes hedgehogs4 {
+  40% { opacity: 0; -moz-transform: translateX(300px); }
+  60% { opacity: 1; -moz-transform: translateX(0px); }
+  80% { opacity: 0; -moz-transform: translateX(-300px); }
+}
+@-o-keyframes hedgehogs4 {
+  40% { opacity: 0; -o-transform: translateX(300px); }
+  60% { opacity: 1; -o-transform: translateX(0px); }
+  80% { opacity: 0; -o-transform: translateX(-300px); }
+}
+@keyframes hedgehogs4 {
+  40% { opacity: 0; transform: translateX(300px); }
+  60% { opacity: 1; transform: translateX(0px); }
+  80% { opacity: 0; transform: translateX(-300px); }
+}
+
+/*fifth image*/
+@-webkit-keyframes hedgehogs5 {
+  60% { opacity: 0; -webkit-transform: translateX(300px); }
+  80% { opacity: 1; -webkit-transform: translateX(0px); }
+  100% { opacity: 0; -webkit-transform: translateX(-300px); }
+}
+@-moz-keyframes hedgehogs5 {
+  60% { opacity: 0; -moz-transform: translateX(300px); }
+  80% { opacity: 1; -moz-transform: translateX(0px); }
+  100% { opacity: 0; -moz-transform: translateX(-300px); }
+}
+@-o-keyframes hedgehogs5 {
+  60% { opacity: 0; -o-transform: translateX(300px); }
+  80% { opacity: 1; -o-transform: translateX(0px); }
+  100% { opacity: 0; -o-transform: translateX(-300px); }
+}
+@keyframes hedgehogs5 {
+  60% { opacity: 0; transform: translateX(300px); }
+  80% { opacity: 1; transform: translateX(0px); }
+  100% { opacity: 0; transform: translateX(-300px); }
+}
