@@ -1,40 +1,4 @@
 #app {
-  background-color: black; }
-
-.container {
-  padding: 20px;
-  display: block;
-  background-color: black; }
-
-.headbang-images {
-  width: 20%;
-  height: 495px;
-  display: inline-block;
-  background: transparent url(../images/clip.jpg) 0 0 no-repeat;
-  background-position: -50px 0px; }
-
-.frame_01 {
-  -webkit-animation: headbang 2s steps(12) infinite; }
-
-.frame_02 {
-  -webkit-animation: headbang 2s 2s steps(12) infinite; }
-
-.frame_03 {
-  -webkit-animation: headbang 2s 4s steps(12) infinite; }
-
-.frame_04 {
-  -webkit-animation: headbang 2s 6s steps(12) infinite; }
-
-.frame_05 {
-  -webkit-animation: headbang 2s 8s steps(12) infinite; }
-
-@-webkit-keyframes headbang {
-  0% {
-    background-position: -50px 0; }
-  100% {
-    background-position: -50px -6000px; }
-  /* Must be full height of sprite or skipping will happen.*/ }
-#app {
   background-color: white; }
 
 header, section, footer, aside, nav, article, figure, figcaption {
@@ -68,6 +32,45 @@ footer {
 p {
   padding: 10px; }
 
+.main-container {
+  height: 100vh; }
+
+.header-intro {
+  padding: 25px 0 0 25px; }
+
+.frightening-container {
+  padding: 20px;
+  display: block;
+  background-color: black; }
+
+.headbang-images {
+  width: 20%;
+  height: 495px;
+  display: inline-block;
+  background: transparent url(../images/clip.jpg) 0 0 no-repeat;
+  background-position: -50px 0px; }
+
+.frame_01 {
+  -webkit-animation: headbang 2s steps(12) infinite; }
+
+.frame_02 {
+  -webkit-animation: headbang 2s 2s steps(12) infinite; }
+
+.frame_03 {
+  -webkit-animation: headbang 2s 4s steps(12) infinite; }
+
+.frame_04 {
+  -webkit-animation: headbang 2s 6s steps(12) infinite; }
+
+.frame_05 {
+  -webkit-animation: headbang 2s 8s steps(12) infinite; }
+
+@-webkit-keyframes headbang {
+  0% {
+    background-position: -50px 0; }
+  100% {
+    background-position: -50px -6000px; }
+  /* Must be full height of sprite or skipping will happen.*/ }
 img.center-align {
   display: block;
   margin: 0px auto;
@@ -346,5 +349,24 @@ img.center-align {
   100% {
     opacity: 0;
     transform: translateX(-300px); } }
+.active, .project-tabs li.project-tabs-li.active {
+  background-color: #fff; }
+
+.project-tabs {
+  padding: 5px; }
+
+.project-tabs ul.project-tabs-ul {
+  display: inline-block;
+  border-bottom: 1px solid #E8E8E8;
+  width: 100%; }
+
+.project-tabs li.project-tabs-li {
+  display: inline-block;
+  padding: 5px;
+  background-color: #E8E8E8;
+  border: 1px solid #E8E8E8;
+  border-bottom: 0px;
+  border-radius: 5px 5px 0 0;
+  margin: 0 3px 0; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,49 @@
+#app {
+  background-color: white;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption {
+  display: block;
+}
+
+body{
+  margin: 0;
+}
+.page-header {
+  text-align: center;
+  background-color: #F2F2F2;
+}
+header h1 {
+  padding-top: 5px;
+}
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+section{
+  background-color: #E8E8E8;
+}
+
+footer{
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  // position: fixed;
+  // bottom: 0;
+  background-color: #F2F2F2;
+}
+p {
+  padding: 10px;
+}
+
+.main-container {
+  height: 100vh;
+  // background-color: red;
+}
+
+.header-intro {
+  padding: 25px 0 0 25px;
+}

@@ -11,12 +11,12 @@
                  [org.clojure/core.async  "0.3.442"
                   :exclusions [org.clojure/tools.reader]]
                  [reagent "0.6.0"]]
+  :main portfolio-project.core
 
   :plugins [[lein-figwheel "0.5.10"]
             [lein-cljsbuild "1.1.5" :exclusions [[org.clojure/clojure]]]]
 
   :source-paths ["src"]
-
   :cljsbuild {:builds
               [{:id "dev"
                 :source-paths ["src"]
@@ -52,6 +52,7 @@
   :figwheel {;; :http-server-root "public" ;; default and assumes "resources"
              ;; :server-port 3449 ;; default
              ;; :server-ip "127.0.0.1"
+             :server-port 3450
 
              :css-dirs ["resources/public/css"] ;; watch and update CSS
 
